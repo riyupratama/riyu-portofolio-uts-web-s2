@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae - Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .text-teal {
+            color: #20c997;
+        }
+
+        .bg-teal {
+            background-color: #20c997;
+            color: white;
+        }
+
+        .btn-teal {
+            background-color: #20c997;
+            color: white;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .btn-teal:hover {
+            background-color: #179b74;
+            color: white;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .project-img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-teal" href="#">Riyu CV Clone</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bagian Hero Section dengan foto profil dan sambutan awal -->
+    <section id="hero" class="container mt-4">
+        <div class="row align-items-center">
+            <!-- Kolom kiri: teks sambutan dan deskripsi singkat -->
+            <div class="col-md-6 order-2 order-md-1 mt-4 mt-md-0">
+                <h1>Hi, I'm <span class="text-teal">Riyu Rahmat Pratama</span></h1>
+                <p class="lead"><em>Seorang Data Analyst yang terbiasa mengolah data menggunakan Excel, serta memiliki
+                        keahlian dalam Front-End dan Back-End Development.</em></p>
+                <a href="#about" class="btn btn-teal px-4 py-2 mt-2">Get to Know Me</a>
+            </div>
+            <div class="col-md-6 order-1 order-md-2 d-flex justify-content-end align-items-center">
+                <img src="https://ketikanriyu.com/assets/profile-BMDvYQ0Z.png" alt="Foto Diri"
+                    class="img-fluid rounded-circle shadow" style="width: 300px; height: 300px; object-fit: cover;">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian About: Deskripsi lengkap profil dan pengalaman kerja -->
+    <section id="about" class="bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold">About Me</h2>
+            <!-- Paragraf pertama dan kedua tentang pekerjaan dan keahlian -->
+            <div class="row">
+                <div class="col-lg-8 text-center mx-auto">
+                    <p>Saat ini, saya bekerja sebagai <strong>Project Leader</strong>. Saya terbiasa
+                        <u>mengkoordinasikan tim</u> untuk memastikan bahwa tugas-tugas diselesaikan sesuai dengan
+                        target. Saya juga memantau kemajuan proyek dengan cermat, memungkinkan saya untuk memahami
+                        bagaimana proyek berjalan, dari kondisi tim hingga situasi di lapangan secara real-time.
+                    </p>
+
+                    <p>Selain mengawasi alur kerja, saya juga <mark>mengelola dokumen perusahaan klien</mark>. Ini
+                        termasuk menangani data secara <i>komprehensif</i> di Excel, serta mengatur file <i>softcopy</i>
+                        maupun <i>hardcopy</i>. Melalui pengalaman ini, saya mengasah kemampuan analitik saya dan
+                        terbiasa menggunakan formula seperti <b>VLOOKUP, INDEX MATCH, dan Pivot Tables</b>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Resume: Riwayat Pendidikan dan Pengalaman Kerja dalam bentuk tabel -->
+    <section id="resume" class="container">
+        <h2 class="mb-5 fw-bold text-center">Education & Experience</h2>
+        <!-- Tabel 1: Riwayat Pendidikan | Tabel 2: Pengalaman Kerja -->
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="mb-3">Riwayat Pendidikan</h4>
+                <table class="table table-bordered table-striped shadow-sm">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Tahun</th>
+                            <th>Institusi Pendidikan</th>
+                            <th>Jurusan / Gelar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2018 - 2022</td>
+                            <td>Universitas Teknologi Contoh</td>
+                            <td>S1 Sistem Informasi</td>
+                        </tr>
+                        <tr>
+                            <td>2015 - 2018</td>
+                            <td>SMA Negeri 1 Contoh</td>
+                            <td>Matematika & IPA</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h4 class="mb-3">Pengalaman Kerja</h4>
+                <table class="table table-bordered table-hover shadow-sm">
+                    <thead class="bg-teal">
+                        <tr>
+                            <th>Tahun</th>
+                            <th>Nama Perusahaan</th>
+                            <th>Posisi / Peran</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2023 - Skrg</td>
+                            <td>PT Shell Indonesia</td>
+                            <td>Document Controller</td>
+                        </tr>
+                        <tr>
+                            <td>2022 - 2023</td>
+                            <td>RSUD Ciawi</td>
+                            <td>Data Analyst</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2 class="mb-4 fw-bold text-center">Skills & Services</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">My Technical Skills</h5>
+                    <ul class="list-group list-group-flush mb-4 shadow-sm">
+                        <li class="list-group-item">✅ Excel / Spreadsheet</li>
+                        <li class="list-group-item">✅ Data Analytics</li>
+                        <li class="list-group-item">✅ Vue.js (Front-End)</li>
+                        <li class="list-group-item">✅ Laravel (Back-End)</li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="fw-bold">Services I Provide</h5>
+                    <ol class="list-group list-group-numbered shadow-sm">
+                        <li class="list-group-item">Data Entry & Validation</li>
+                        <li class="list-group-item">Front-End UI/UX Slicing</li>
+                        <li class="list-group-item">Database System Design</li>
+                        <li class="list-group-item">Web App Development</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Projects: Galeri portfolio dengan 3+ screenshot proyek -->
+    <section id="projects" class="container">
+        <h2 class="mb-5 fw-bold text-center">Screenshot Projects</h2>
+        <!-- Menampilkan 3 project utama dengan deskripsi singkat -->
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <img src="https://ketikanriyu.com/assets/project-1-DIm9a8oG.png" alt="Project 1"
+                    class="img-fluid project-img mb-3 shadow">
+                <h5>Data Migration & Validation</h5>
+                <p class="text-muted small">Memigrasikan data tidak terstruktur menjadi bersih dan siap analisis.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://ketikanriyu.com/assets/project-2-BDHKzfL3.png" alt="Project 2"
+                    class="img-fluid project-img mb-3 shadow">
+                <h5>Data Parsing</h5>
+                <p class="text-muted small">Pemisahan data kompleks dari satu kolom menjadi terstruktur.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://ketikanriyu.com/assets/project-3-DHTFATRP.png" alt="Project 3"
+                    class="img-fluid project-img mb-3 shadow">
+                <h5>Dashboard Pivot Tables</h5>
+                <p class="text-muted small">Membuat dashboard interaktif dari data mentah berukuran besar.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer: Kontak dan link eksternal -->
+    <footer class="text-center py-5 bg-dark text-white mt-auto">
+        <div class="container">
+            <!-- Link untuk LinkedIn, GitHub, dan Email -->
+            <h4 class="mb-4">Let's Connect!</h4>
+            <p>Tertarik untuk bekerja sama? Hubungi saya melalui link di bawah ini.</p>
+            <a href="https://www.linkedin.com/in/riyu-r-pratama/" target="_blank"
+                class="btn btn-outline-light me-2">LinkedIn</a>
+            <a href="https://github.com/riyupratama" target="_blank" class="btn btn-outline-light me-2">GitHub</a>
+            <a href="mailto:riyurahmatpratama6@gmail.com" class="btn btn-teal">Email Me</a>
+            <hr class="mt-5 mb-3 border-secondary">
+            <p class="mb-0 small text-secondary">&copy; 2026 Curriculum Vitae. Dibuat untuk memenuhi tugas.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
